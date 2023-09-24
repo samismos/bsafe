@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Battery Calculator",
+    "slug": "calcbatteries",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/bsafe.ico",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.samismos.calcbatteries"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7db76942-302d-45ff-a94c-60c16d44ef76"
+      }
+    },
+    "owner": "samismos"
+  }
+}
