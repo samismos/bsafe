@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/bsafe.ico",
+        "foregroundImage": "./assets/bsafe.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.samismos.calcbatteries"

@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, TextInput, View, Image, ScrollView } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import { styles } from './styles.js';
-import logo from './assets/bsafe.png';
+import logo from './assets/bsafe-inApp.png';
 import { MenuItem, ResultItem, Ergasia } from './menuItem.js';
 
 export default function App() {
@@ -51,9 +51,9 @@ export default function App() {
     console.log('New Total Sum:', newTotalSum);
     setTotalSum(newTotalSum);
 
-    const newVat = newTotalSum * vatRate;
+    const newVat = (newTotalSum * vatRate) + (ergasia * vatRate);
     setVat(newVat);
-  }, [menuItems]);
+  }, [menuItems, ergasia]);
 
 
   return (
